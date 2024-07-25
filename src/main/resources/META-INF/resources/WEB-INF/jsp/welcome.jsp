@@ -1,7 +1,5 @@
-<html>
-
-<title>Home Page</title>
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 <div class="container">
     <div>
         Welcome to Home page, ${name}!
@@ -14,5 +12,4 @@
 </div>
 
 
-</body>
-</html>
+<%@ include file="common/footer.jspf" %>
